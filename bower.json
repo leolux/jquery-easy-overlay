@@ -1,0 +1,30 @@
+{
+  "name": "jquery-easy-overlay",
+  "version": "1.0.0",
+  "homepage": "https://github.com/leolux/jquery-easy-overlay.git",
+  "authors": [
+    "leolux"
+  ],
+  "description": "Easy jQuery plugin which can be used to create overlays from any element",
+  "main": [
+        "overlay.css",
+        "overlay.js"
+      ],
+  "keywords": [
+       "jquery",
+       "overlay",
+       "plugin"       
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "repository": {
+       "type": "git",
+       "url": "https://github.com/leolux/jquery-easy-overlay.git"
+   }
+}
