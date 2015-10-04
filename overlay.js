@@ -30,6 +30,8 @@
 
     // Private methods - can only be called from within this object
     var hide = function() {
+	  $('body').css('overflow', '');
+		
       //Hide backdrop
       if (backdropEl !== null) {
         backdropEl.remove();
@@ -52,6 +54,7 @@
 
         //Show overlay
         elem.addClass('overlay')
+		$('body').css('overflow', 'hidden');
       }
       triggerEl.on('click', triggerHandler);
 
