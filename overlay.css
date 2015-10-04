@@ -14,8 +14,7 @@
   z-index: 999;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
-  background-color: #ffffff;
-  border: 1px solid #999;
+  background-color: #ffffff;  
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 6px;
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
