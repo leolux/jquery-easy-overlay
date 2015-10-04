@@ -10,8 +10,10 @@
   transform: translate(-50%, 0);
   width: 98%;  
   min-height: 100px;  
+   max-height: calc(98% - 60px);
   z-index: 999;
-  overflow: auto;  
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
   background-color: #ffffff;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, 0.3);
