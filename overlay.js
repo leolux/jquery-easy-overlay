@@ -84,6 +84,4 @@
 
         return overlay;
       };
-    };
-  })
-(jQuery);
+})(jQuery);
